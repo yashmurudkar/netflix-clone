@@ -1,0 +1,107 @@
+.loginScreen {
+  position: relative;
+  height: 100%;
+  background: url("https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media/banner.jpg")
+    center no-repeat;
+  background-size: cover;
+}
+
+.loginScreen__logo {
+  position: fixed;
+  left: 0;
+  width: 180px;
+  object-fit: contain;
+}
+
+.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  font-weight: 600;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.loginScreen__buttonHide {
+  visibility: hidden;
+}
+
+.loginScreen__background {
+  min-height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0,
+    rgba(0, 0, 0, 0.5) 60%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+}
+
+.loginScreen__body {
+  position: absolute;
+  padding: 20px;
+  z-index: 1;
+  top: 30%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+
+.loginScreen__body h2 {
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.loginScreen__body h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.loginScreen__body h4 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.loginScreen__input {
+  margin: 20px;
+}
+
+.loginScreen__input form input {
+  padding: 15px;
+  outline-width: 0;
+  font-size: 1rem;
+  height: 30px;
+  width: 40%;
+  max-width: 600px;
+  color: #fff;
+  border: 1px solid grey;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+}
+
+.loginScreen__getStarted {
+  padding-top: 14px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  background-color: #e50914;
+  margin-left: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
